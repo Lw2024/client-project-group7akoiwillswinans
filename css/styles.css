@@ -75,3 +75,50 @@ footer {
   padding: 10px;
   text-align: center;    
 }
+/* Style the navigation menu */
+nav ul.nav {
+  list-style: none;
+  display: flex;
+}
+
+nav ul.nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Style the main content section */
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+}
+
+video {
+  width: 100%;
+  max-width: 640px;
+  height: auto;
+}
+
+/* Style the footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  main {
+    padding: 10px;
+  }
+}
+
+.clear {
+  clear: both;
+}
