@@ -21,6 +21,7 @@ header {
 img {
     max-width: 20%;
     display: block;
+    padding-bottom: 10px;
 }
 
 body {
@@ -39,39 +40,126 @@ body {
 }
 
 
+
 #nav {
     background-color: black;
     color: white;
     width: 100%;
 
 }
+
+
 nav {
-  float: right;
-  list-style: none;    /*gets rid of bullet points*/ 
-  text-align: left;
-  padding: 0px -10px 0px -10px;
-  margin: 0;
+        float: right;
+        width: 70%;
+        margin: 4em 1em 0 0;
+    }
+
+    nav ul {
+        margin:0;
+        list-style-type:none;
+        text-align: right;
+    }
+    
+    nav li {
+        display:inline-block;
+        border: none;
+    }
+
+    nav li a {
+        text-decoration: none;
+     color: white;
+    text-align: center;
+     font-size: 30px;
+     padding: 5px 0px 5px 0px;
+         margin:80px;
+    }
+    
+    nav li a:hover {
+        color: #000;
+        background-color: #fff;
+        padding:10px;
+    }
+
+main{
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+    background-image: url(blurred-background-pic.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-nav li {                                                            
-    max-width: 768px
-    display:Inline-block;
-    padding: 10px 9px 10px 9px;                               
+
+.contact-h2 {
+    text-align: center;
 }
 
-nav li a {                                               
-     text-decoration: none;
-     color: blue;
-     font-size: 14px;
-     padding: 5px 0px 5px 0px
- }
+.mobile tel-link {
+    text-align: center;
+}
 
-nav li > a:hover {
-     color: black;*/
- }
+h4 {
+    text-align: center;
+}
 
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: dimgrey;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: lightgrey;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  color: black;
+  background-color: #f2f2f2;
+}
+
+.figcation {
+    color: white;
+}
+
+.fig{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+        
+}
 /* Style the footer */
 footer {
-  background-color: #f0f0f0;
+  background-color: black;       
   padding: 10px;
-  text-align: center;    
+  text-align: center;
+}
+
+footer p {
+    font-size: 0.75em;
+    text-align: center;
+    color: #fff;
+    padding: 0 1em;
+}
+
+footer p a {
+    color: #fff;
+    text-decoration: none;
 }
